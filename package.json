@@ -1,0 +1,25 @@
+{
+  "name": "pottybotty",
+  "version": "1.0.0",
+  "description": "Helping GoDaddy GoPotty",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattbudiman/pottybotty.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattbudiman/pottybotty/issues"
+  },
+  "homepage": "https://github.com/mattbudiman/pottybotty#readme",
+  "dependencies": {
+    "@slack/events-api": "^2.3.0",
+    "@slack/web-api": "^5.1.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
